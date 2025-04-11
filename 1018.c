@@ -3,11 +3,9 @@
 
 int main()
 {
-    // declaração
     int n = 0, r = 0, resto = 0;
     scanf("%d", &n);
-
-    // processamento e output
+   
     printf("%d\n", n);
     r = n / 100;
     printf("%d nota(s) de R$ 100,00\n", r);
